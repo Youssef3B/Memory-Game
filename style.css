@@ -1,0 +1,40 @@
+body{
+    background-color: tomato;
+}
+#panel{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+.card{
+    border-radius: 0px;
+}
+.cards{
+    position: relative !important;
+}
+.front{
+    position: relative !important;
+    width:  100%;
+    background-color: white;
+    z-index: 0;
+}
+.back{
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0;
+    background-color: black !important;
+
+}
+.flip{
+    z-index: 1;
+}
+.match{
+    z-index: 1;
+}
+.show{
+    z-index: 1;
+}
+button{
+    display: none;
+}
